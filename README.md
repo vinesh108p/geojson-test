@@ -14,7 +14,7 @@
       "properties": {
         "AWS": "Los Angeles",
         "Tencent": "Hong Kong",
-        "marker-color": "#FF9900"
+        "color": "#FF9900"
       },
       "id": 0
     },
@@ -57,7 +57,7 @@
       },
       "properties": {
         "AWS": "",
-        "marker-color": "#00aaff"
+        "color": "#00aaff"
       },
       "id": 3
     }
@@ -77,7 +77,6 @@
           "properties": {
             "name": "Los Angeles",
             "marker-color": "#FFA500",
-            "marker-symbol": "star",
             "marker-size": "medium",
             "cloud-provider": "AWS"
           }
@@ -99,7 +98,6 @@
           "properties": {
             "name": "Singapore",
             "marker-color": "#0000FF",
-            "marker-symbol": "circle",
             "marker-size": "medium",
             "cloud-provider": "Tencent Cloud"
           }
