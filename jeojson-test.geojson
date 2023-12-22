@@ -4,54 +4,22 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2437,
-          34.0522
-        ]
-      },
+      "id": 1,
       "properties": {
+        "ID": 0
       },
-      "id": 0
-    },
-    {
-      "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "Polygon",
         "coordinates": [
-          -0.1276,
-          51.5074
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
         ]
-      },
-      "properties": {
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.1095,
-          22.3964
-        ]
-      },
-      "properties": {
-      },
-      "id": 2
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.8198,
-          1.3521
-        ]
-      },
-      "properties": {
-      },
-      "id": 3
     }
   ]
 }
