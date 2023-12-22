@@ -77,7 +77,7 @@
           "properties": {
             "name": "Los Angeles",
             "marker-color": "#FFA500",
-            "marker-size": "medium",
+            "marker-size": "8",
             "cloud-provider": "AWS"
           }
         },
@@ -88,7 +88,7 @@
             "name": "London",
             "marker-color": "#0000FF",
             "marker-symbol": "circle",
-            "marker-size": "medium",
+            "marker-size": "12",
             "cloud-provider": "Tencent Cloud"
           }
         },
@@ -98,7 +98,7 @@
           "properties": {
             "name": "Singapore",
             "marker-color": "#0000FF",
-            "marker-size": "medium",
+            "marker-size": "12",
             "cloud-provider": "Tencent Cloud"
           }
         }
