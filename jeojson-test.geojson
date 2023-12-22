@@ -12,7 +12,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#FF9900"
       },
       "id": 0
     },
@@ -51,7 +50,6 @@
         ]
       },
       "properties": {
-        "marker-color": "#00aaff"
       },
       "id": 3
     }
