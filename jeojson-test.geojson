@@ -4,23 +4,51 @@
   "features": [
     {
       "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [-118.2437, 34.0522]
+      },
+      "properties": {
+        "name": "Los Angeles",
+        "marker-color": "#FFA500",
+        "marker-symbol": "star",
+        "marker-size": "medium",
+        "cloud-provider": "AWS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1276, 51.5074]
+      },
+      "properties": {
+        "name": "London",
+        "marker-color": "#0000FF",
+        "marker-symbol": "circle",
+        "marker-size": "medium",
+        "cloud-provider": "Tencent Cloud"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8198, 1.3521]
+      },
+      "properties": {
+        "name": "Singapore",
+        "marker-color": "#0000FF", 
+        "marker-symbol": "circle",
+        "marker-size": "medium",
+        "cloud-provider": "Tencent Cloud"
       }
     }
-  ]
+  ],
+  "legend": {
+    "AWS": "#FFA500",
+    "Tencent Cloud": "#0000FF"  
+  }
 }
+
 ```
