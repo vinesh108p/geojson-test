@@ -64,3 +64,54 @@
   ]
 }
 ```
+```topojson
+{
+  "type": "Topology",
+  "objects": {
+    "locations": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "coordinates": [-118.2437, 34.0522],
+          "properties": {
+            "name": "Los Angeles",
+            "marker-color": "#FFA500",
+            "marker-symbol": "star",
+            "marker-size": "medium",
+            "cloud-provider": "AWS"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [-0.1276, 51.5074],
+          "properties": {
+            "name": "London",
+            "marker-color": "#0000FF",
+            "marker-symbol": "circle",
+            "marker-size": "medium",
+            "cloud-provider": "Tencent Cloud"
+          }
+        },
+        {
+          "type": "Point",
+          "coordinates": [103.8198, 1.3521],
+          "properties": {
+            "name": "Singapore",
+            "marker-color": "#0000FF",
+            "marker-symbol": "circle",
+            "marker-size": "medium",
+            "cloud-provider": "Tencent Cloud"
+          }
+        }
+      ]
+    }
+  },
+  "arcs": [],
+  "transform": {
+    "scale": [1, 1],
+    "translate": [0, 0]
+  },
+  "bbox": [-118.2437, 1.3521, 103.8198, 51.5074]
+}
+```
