@@ -12,9 +12,8 @@
         ]
       },
       "properties": {
-        "AWS": "Los Angeles",
-        "Tencent": "Hong Kong",
-        "color": "blue"
+        "title": "Los Angeles",
+        "color": "7e7e7e"
       },
       "id": 0
     },
@@ -28,8 +27,8 @@
         ]
       },
       "properties": {
-        "AWS": "London",
-        "Tencent": "Singapore"
+        "title": "London",
+        "description": "Singapore"
       }
     },
     {
@@ -42,7 +41,7 @@
         ]
       },
       "properties": {
-        "AWS": ""
+        "title": "Hello"
       },
       "id": 2
     },
@@ -56,8 +55,8 @@
         ]
       },
       "properties": {
-        "AWS": "",
-        "marker-color": "#FF0000"
+        "title": "Hong Kong",
+        "marker-color": "	#00FFFF"
       },
       "id": 3
     }
@@ -75,9 +74,9 @@
           "type": "Point",
           "coordinates": [-118.2437, 34.0522],
           "properties": {
-            "name": "Los Angeles",
+            "title": "Los Angeles",
             "marker-color": "#FFA500",
-            "marker-size": "8",
+            "marker-size": large8",
             "cloud-provider": "AWS"
           }
         },
@@ -85,10 +84,10 @@
           "type": "Point",
           "coordinates": [-0.1276, 51.5074],
           "properties": {
-            "name": "London",
+            "title": "London",
             "marker-color": "#0000FF",
             "marker-symbol": "circle",
-            "marker-size": "12",
+            "marker-size": "large",
             "cloud-provider": "Tencent Cloud"
           }
         },
@@ -96,9 +95,9 @@
           "type": "Point",
           "coordinates": [103.8198, 1.3521],
           "properties": {
-            "name": "Singapore",
+            "title": "Singapore",
             "marker-color": "#0000FF",
-            "marker-size": "12",
+            "marker-size": "large",
             "cloud-provider": "Tencent Cloud"
           }
         }
