@@ -56,7 +56,7 @@
       },
       "properties": {
         "title": "Hong Kong",
-        "marker-color": "	#00FFFF"
+        "marker-color": "#00FFFF"
       },
       "id": 3
     }
