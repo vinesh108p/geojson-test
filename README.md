@@ -57,7 +57,7 @@
       },
       "properties": {
         "AWS": "",
-        "color": "red"
+        "marker-color": "#FF0000"
       },
       "id": 3
     }
